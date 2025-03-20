@@ -32,8 +32,12 @@ public class MahasiswaDemo23 {
         // list.bubbleSort();
         // list.tampil();
 
-        System.out.println("Data mahasiswa yang sudah urut menggunakan Selection Sort (Ascending): ");
-        list.selectionSort();
+        // System.out.println("Data mahasiswa yang sudah urut menggunakan Selection Sort (Ascending): ");
+        // list.selectionSort();
+        // list.tampil();
+
+        System.out.println("Data mahasiswa yang sudah urut menggunakan Insertion Sort (Ascending): ");
+        list.insertionSort();
         list.tampil();
     }
 }
