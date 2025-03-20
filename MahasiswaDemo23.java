@@ -36,8 +36,12 @@ public class MahasiswaDemo23 {
         // list.selectionSort();
         // list.tampil();
 
-        System.out.println("Data mahasiswa yang sudah urut menggunakan Insertion Sort (Ascending): ");
-        list.insertionSort();
+        // System.out.println("Data mahasiswa yang sudah urut menggunakan Insertion Sort (Ascending): ");
+        // list.insertionSort();
+        // list.tampil();
+
+        System.out.println("Data mahasiswa yang sudah urut menggunakan Insertion Sort (Descending): ");
+        list.insertionSortDescending();
         list.tampil();
     }
 }
