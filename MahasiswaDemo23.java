@@ -28,8 +28,12 @@ public class MahasiswaDemo23 {
         System.out.println("Data mahasiswa sebelum sorting : ");
         list.tampil();
 
-        System.out.println("Data mahasiswa setelah sorting berdasarkan IPK (Ascending): ");
-        list.bubbleSort();
+        // System.out.println("Data mahasiswa setelah sorting berdasarkan IPK (Ascending): ");
+        // list.bubbleSort();
+        // list.tampil();
+
+        System.out.println("Data mahasiswa yang sudah urut menggunakan Selection Sort (Ascending): ");
+        list.selectionSort();
         list.tampil();
     }
 }
